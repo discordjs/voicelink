@@ -1,0 +1,52 @@
+# Packages
+node_modules
+**/node_modules
+
+# Build artifacts
+dist
+**/dist
+typings
+**/typings
+tsconfig.tsbuildinfo
+
+# Log files
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# IDE
+.vscode
+
+# Docker (experimental)
+docker
+Dockerfile
+docker-compose.yml
+docker-compose.local.yml
+docker-compose.prod.yml
+docker-compose.config.yml
+docker-compose.config.example.yml
+
+# Tests
+coverage
+jest-setup.ts
+jest.config.js
+
+# Linting
+.eslintignore
+.eslintrc.json
+tsconfig.eslint.json
+
+# Miscellaneous
+.tmp
+.github
+.vscode
+.git
+.gitattributes
+.gitignore
+.npmrc
+README.md
